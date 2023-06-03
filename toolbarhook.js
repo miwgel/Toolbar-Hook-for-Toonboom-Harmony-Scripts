@@ -39,7 +39,7 @@ ToolbarHook.prototype.addVisualDroidsBranding = function () {
   // );
   this.label = new QLabel(
     "<html>" +
-    "<head/>" +
+      "<head/>" +
       "<body>" +
       "<p align='left' style='padding:0px; margin:0px; margin-left:10px; margin-right:10px; font:bold large \"Arial\"'>" +
       "<span style=' font-size:15pt;line-height:10px; '>" +
@@ -48,7 +48,7 @@ ToolbarHook.prototype.addVisualDroidsBranding = function () {
       "</p>" +
       "<p align='left' style='padding:0px; margin:0px; margin-left:10px; margin-right:10px; font:\"Arial\"'>" +
       "<span style=' font-size:8pt; font-weight:400;'>by " +
-      this.packageInfo.packageCreator +
+      this.packageInfo.packagePublisher +
       "</span>" +
       "</p>" +
       "</body>" +
